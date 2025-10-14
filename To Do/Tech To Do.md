@@ -1,0 +1,201 @@
+- [ ] **Mobile Domain**
+	- [ ] **UI Frameworks**
+		- [ ] **Declarative**
+			- [ ] **iOS: SwiftUI**
+			- [ ] **Android: Jetpack Compose**
+		- [ ] **Imperative**
+			- [ ] **iOS: UIKit**
+			- [ ] **Android: View System (XML / Code)**
+	- [ ] **Lifecycle Management**
+		- [ ] **iOS: UIViewController, AppDelegate, SceneDelegate**
+		- [ ] **iOS: SwiftUI View**
+		- [ ] **Android: Activity, Fragment, Application**
+		- [ ] **Android: Jetpack Compose**
+	- [ ] **Threading & Concurrency**
+		- [ ] **iOS: GCD, Operation Queue, async/await, Tasks, Actors**
+		- [ ] **Android: Looper, Handler, ThreadPoolExecutor, Coroutines**
+	- [ ] **Navigation**
+		- [ ] **iOS: UINavigationController, SwiftUI NavigationStack**
+		- [ ] **Android: Navigation Component**
+		- [ ] **Coordinator patterns**
+		- [ ] Deep Links
+	- [ ] **Data Binding**
+		- [ ] **iOS: Completion handlers, Combine, KVO, ObservableObject**
+		- [ ] **Android: LiveData, Kotlin Coroutines (Flow/StateFlow)**
+	- [ ] Runtime
+		- [ ] Android VM & Runtime
+		- [ ] iOS Runtime
+- [x] **API Design & Networking**
+	- [x] **Communication Protocols**
+		- [x] **[[REST]]**
+		- [x] **[[WebSockets]]**
+		- [x] [[GraphQL]]
+		- [x] [[gRPC]]
+	- [x] **Real-time Updates**
+		- [x] **[[HTTP Polling]]**
+		- [x] **[[HTTP Long-Polling]]**
+		- [x] **[[Server-Sent Events (SSE)]]**
+		- [x] **[[WebSockets]]**
+		- [x] **[[Push Notifications]]**
+	- [x] **[[Pagination]]**
+		- [x] **[[Pagination#Limit-Offset Pagination]]**
+		- [x] **[[Pagination#Page-Based Pagination]]**
+		- [x] **[[Pagination#Keyset Pagination]]**
+		- [x] **[[Pagination#Cursor-Based Pagination]]**
+	- [x] **API Integration**
+		- [x] **[[HTTP Clients]]**
+			- [x] **[[HTTP Clients#iOS Clients]]: URLSession, Alamofire**
+			- [x] **[[HTTP Clients#Android Clients]]: OkHTTP, Retrofit**
+		- [x] **[[Serialization & Parsing]]**
+			- [x] **[[Serialization & Parsing#iOS]]: [[Serialization & Parsing#Codable]] /  [[Serialization & Parsing#Decoding JSON → Model]]**
+			- [x] **[[Serialization & Parsing#iOS]]: [[Serialization & Parsing#JSONDecoder / JSONEncoder Customization]]**
+			- [x] **[[Serialization & Parsing#Android]]: [[Serialization & Parsing#Moshi (Preferred)]] / [[Serialization & Parsing#Gson]]**
+			- [x] **[[Serialization & Parsing#DTO (Data Transfer Object) ↔ Domain Model Mappers]]**
+		- [x] **Background Calls**
+			- [x] **[[Background Calls#iOS `URLSession` - Background Configuration]]**
+			- [x] **[[Background Calls#Android `WorkManager` & `JobScheduler`]]**
+		- [x] **[[Delta Updates]]**
+			- [x] **[[Delta Updates#Timestamps]]**
+			- [x] **[[Delta Updates#Sequence ID / Incrementing ID]]**
+			- [x] **[[Delta Updates#ETag]]**
+		- [x] [[Offline & Sync]]
+			- [x] [[Offline & Sync#Conflict Resolution]]
+			- [x] [[Offline & Sync#Queueing]]
+			- [x] [[Offline & Sync#Background Retry]]
+		- [x] [[Batched Requests]]
+		- [x] [[Resumable Uploads-Downloads]]
+		- [x] [[Prefetching]]
+	- [x] **[[Caching Strategies]]**
+		- [x] **[[HTTP Caching#Cache-Control Header]]**
+		- [x] **[[HTTP Caching#ETag / Last-Modified]]**
+		- [x] **[[In-Memory Cache]]**
+			- [x] **[[In-Memory Cache#iOS `NSCache<KeyType, ObjectType>`]]**
+			- [x] **[[In-Memory Cache#Android `LruCache<K, V>`]]**
+		- [x] **[[Disk Cache]]**
+		- [x] [[Custom Cache Invalidation Strategies]]
+	- [x] [[Authentication]]
+		- [x] [[Basic Login-Password over HTTPS]]
+		- [x] [[Third-Party Logins]]
+			- [x] [[Third-Party Logins#Sign-in with Apple]]
+			- [x] [[Third-Party Logins#Sign-in with Google / Facebook / Others]]
+			- [x] [[OAuth 2.0]]
+			- [x] [[OAuth 2.0#OpenID Connect]]
+		- [x] [[Multi-Factor Authentication]]
+		- [x] [[Access Token & Refresh Token Flow]]
+		- [x] [[Access Token & Refresh Token Flow#Token storage best practices]]
+	- [x] [[Retry Policies]]
+		- [x] [[Exponential Backoff]]
+		- [x] [[Linear Backoff]]
+		- [x] [[Circuit Breakers]]
+		- [x] [[Retrying after OAuth token refresh]]
+	- [x]  [[API Evolution]] & [[API Evolution#Backward Compatibility]]
+		- [x] [[API Evolution#URI Versioning]]
+		- [x] Adding / Removing fields - [[API Evolution#Safe Evolution Techniques]]
+	- [x]  [[CDN]]
+- [x] **Software Architecture & Design Patterns**
+	- [x]  **App-Wide Architectural patterns**
+		- [x] **[[MVC]]**
+		- [x] **[[MVP]]**
+		- [x] **[[MVVM]]**
+		- [x] **[[MVI]]**
+		- [x] **[[Clean Architecture]]**
+		- [x] [[VIPER]]
+		- [x] [[Redux]]
+	- [x]  **Design Patterns (GO4)**
+		- [x] **[[Creational]]**
+			- [x] **[[Creational#Singleton]]**
+			- [x] **[[Creational#Factory]]**
+			- [x] **[[Creational#Builder]]**
+			- [x] [[Creational#Abstract Factory]]
+			- [x] [[Creational#Prototype]]
+		- [x] **[[Structural]]**
+			- [x] **[[Structural#Facade]]**
+			- [x] **[[Structural#Proxy]]**
+			- [x] **[[Structural#Adapter]]**
+			- [x] **[[Structural#Decorator]]**
+			- [x] [[Structural#Composite]]
+			- [x] [[Structural#Bridge]]
+			- [x] [[Structural#Flyweight]]
+		- [x] **[[Behavioral]]**
+			- [x] **[[Behavioral#Observer]]**
+			- [x] **[[Behavioral#Chain of responsibility]]**
+			- [x] [[Behavioral#Strategy]]
+			- [x] [[Behavioral#Mediator]]
+			- [x] [[Behavioral#Command]]
+			- [x] [[Behavioral#Memento]]
+			- [x] [[Behavioral#Interpreter]]
+			- [x] [[Behavioral#Visitor]]
+	- [x]  **Other**
+		- [x] **[[Dependency Injection]]**
+			- [x] **iOS: Manual DI in Swift**
+			- [x] **Android: Manual DI in Kotlin**
+			- [x] iOS: Swinject
+			- [x] Android: Hilt, Dagger
+		- [x] **[[Delegate]]**
+		- [x] **[[Reactive Programming]]**
+		- [x] Service Locator
+		- [x] [[Feature flags & Remote Config]]
+- [ ] **Data Storage**
+	- [x] **[[Key-Value Storage]]**
+		- [x] **[[Key-Value Storage#iOS UserDefaults]]**
+		- [x] **[[Key-Value Storage#Android: SharedPreferences]]**
+	- [x]  **Database**
+		- [x] **[[SQLite]]**
+		- [x] **[[Realm]]**
+		- [x] **iOS: [[CoreData]]**
+		- [x] **Android: [[Room]]**
+		- [x] **[[ObjectBox]]**
+	- [ ]  **Secure Storage**
+		- [ ] **iOS: [[Keychain]]**
+		- [ ] **Android: EncryptedSharedPreferences, Jetpack Security**
+	- [ ]  **File Storage**
+	- [ ]  Binary Storage
+		- [ ] Android: Proto DataStore
+- [x] **Performance & Optimization**
+	- [x] **[[Memory Management]]**
+		- [x] **[[Common Leak Sources]]**
+		- [x] [[Leak Detection]]
+		- [x] [[Profiling & Metrics]]
+	- [x] **[[CPU & Battery]]**
+		- [x] **[[Background Task Scheduling]]**
+		- [x] **[[Power-Saving modes]]**
+			- [x] **iOS: App Nap**
+			- [x] **Android: Doze Mode**
+	- [x] [[Rendering & Animation]]
+	- [x] [[App Startup Time]]
+	- [x] [[Optimize Geo-Location Usage]]
+	- [x] [[App Size]]
+- [ ] **Observability & Testing**
+	- [ ]  **Unit Testing**
+		- [ ] **iOS: XCTest**
+		- [ ] **Android: JUnit**
+	- [ ]  **Mocking Frameworks**
+		- [ ] **iOS: Mockingbird**
+		- [ ]  **Android: Mockito**
+	- [ ]  **Integration Testing**
+	- [ ]  **UI Testing**
+		- [ ] **iOS: XCUITest, EarlGrey 2.0, Snapshot Test**
+		- [ ] **Android: Espresso, UI Automator**
+	- [ ]  **CI / CD**
+	- [ ]  E2E Testing
+		- [ ] Detox, Appium
+	- [ ]  Beta Distribution & Rollouts
+	- [ ]  Logging & Monitoring
+	- [ ]  Metrics & Dashboards
+	- [ ]  Crash Reporting
+- [ ] **Privacy & Security**
+	- [ ]  **Data Encryption**
+	- [ ]  **Secure Storage**
+	- [ ]  Minimize Data Collection
+	- [ ]  Minimize Permission Usage
+	- [ ]  Data Retention & Deletion
+	- [ ]  Code security, integrity, obfuscation
+	- [ ]  Privacy Compliance
+- [ ] **Advanced Topics**
+	- [ ]  On-Device Machine Learning
+	- [ ]  Augmented & Virtual Reality
+	- [ ]  Wearables
+	- [ ]  Foldables & Multi-Window UIs
+	- [ ]  Server-Driven UI
+	- [ ]  Cross-Platform Mobile Development
+	- [ ]  Internationalization

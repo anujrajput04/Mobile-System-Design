@@ -1,0 +1,10 @@
+- The mind map contains the list of all the knowledge areas you need to know for a mobile system design interview, divided into sections.
+- You read the mind-map from top (Mobile Domain section).
+- At the start of the preparation, read the map to better understand what topics might be asked. Focus only on points and sections in bold font, which are the required topics.
+- Grade yourself in each area to identify the weak spots, like this: "Mobile Domain: 4/5, API Design: 2/5". This will help you prioritize what to study.
+- Focus on learning how to use the items in bold in the context of mobile system design.
+- Practice solving mobile system design problems yourself.
+- Review the "Interview Strategy (Non Tech)" section to better understand the format, expectations, and communication patterns to use.
+- Use the text based version of the mind map, if needed
+- **Bold** Font = Must know for Middle SWE
+- Regular Font = Senior & Staff roles

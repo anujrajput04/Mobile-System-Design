@@ -135,7 +135,7 @@
 		- [x] **[[Reactive Programming]]**
 		- [x] Service Locator
 		- [x] [[Feature flags & Remote Config]]
-- [ ] **Data Storage**
+- [x] **Data Storage**
 	- [x] **[[Key-Value Storage]]**
 		- [x] **[[Key-Value Storage#iOS UserDefaults]]**
 		- [x] **[[Key-Value Storage#Android: SharedPreferences]]**
@@ -145,10 +145,10 @@
 		- [x] **iOS: [[CoreData]]**
 		- [x] **Android: [[Room]]**
 		- [x] **[[ObjectBox]]**
-	- [ ]  **Secure Storage**
-		- [ ] **iOS: [[Keychain]]**
+	- [x]  **Secure Storage**
+		- [x] **iOS: [[Keychain]]**
 		- [ ] **Android: EncryptedSharedPreferences, Jetpack Security**
-	- [ ]  **File Storage**
+	- [x]  **File Storage**
 	- [ ]  Binary Storage
 		- [ ] Android: Proto DataStore
 - [x] **Performance & Optimization**
